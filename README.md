@@ -1,5 +1,5 @@
-About labjackpython
-===================
+About labjack
+=============
 
 Home: http://labjack.com/support/labjackpython
 
@@ -7,43 +7,42 @@ Package license: MIT X-11
 
 Feedstock license: BSD 3-Clause
 
-Summary: Python module for communicating with the LabJack U3/U6/UE9/U12.
+Summary: Python module for communicating with the LabJack U3/U6/UE9/U12
 
 
 
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/labjackpython-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/labjackpython-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/labjackpython-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/labjackpython-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/labjackpython-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/labjackpython-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/labjackpython-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/labjackpython-feedstock)
 
 Current release info
 ====================
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-labjackpython-green.svg)](https://anaconda.org/conda-forge/labjackpython) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/labjackpython.svg)](https://anaconda.org/conda-forge/labjackpython) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/labjackpython.svg)](https://anaconda.org/conda-forge/labjackpython) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/labjackpython.svg)](https://anaconda.org/conda-forge/labjackpython) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-labjack-green.svg)](https://anaconda.org/conda-forge/labjack) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/labjack.svg)](https://anaconda.org/conda-forge/labjack) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/labjack.svg)](https://anaconda.org/conda-forge/labjack) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/labjack.svg)](https://anaconda.org/conda-forge/labjack) |
 
-Installing labjackpython
-========================
+Installing labjack
+==================
 
-Installing `labjackpython` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `labjack` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `labjackpython` can be installed with:
+Once the `conda-forge` channel has been enabled, `labjack` can be installed with:
 
 ```
-conda install labjackpython
+conda install labjack
 ```
 
-It is possible to list all of the versions of `labjackpython` available on your platform with:
+It is possible to list all of the versions of `labjack` available on your platform with:
 
 ```
-conda search labjackpython --channel conda-forge
+conda search labjack --channel conda-forge
 ```
 
 
@@ -83,17 +82,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating labjackpython-feedstock
-================================
+Updating labjack-feedstock
+==========================
 
-If you would like to improve the labjackpython recipe or build a new
+If you would like to improve the labjack recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/labjackpython-feedstock are
+Note that all branches in the conda-forge/labjack-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
